@@ -1,0 +1,18 @@
+2022-01-06 00:15:06.561  INFO 5300 --- [main] com.phonebook.PhoneBookApplicationTests  : Starting PhoneBookApplicationTests using Java 11.0.10 on SILENTWOLF with PID 5300 (started by krushna in F:\Ashok-It\12-SBMS\Workspace\PhoneBook)
+2022-01-06 00:15:06.564  INFO 5300 --- [main] com.phonebook.PhoneBookApplicationTests  : No active profile set, falling back to default profiles: default
+2022-01-06 00:15:13.109  INFO 5300 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-06 00:15:13.621  INFO 5300 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 408 ms. Found 1 JPA repository interfaces.
+2022-01-06 00:15:25.051  INFO 5300 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-06 00:15:26.828  INFO 5300 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.3.Final
+2022-01-06 00:15:28.871  INFO 5300 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-06 00:15:31.103  INFO 5300 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-01-06 00:15:38.274  INFO 5300 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-01-06 00:15:38.602  INFO 5300 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2022-01-06 00:15:47.599  INFO 5300 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-06 00:15:47.650  INFO 5300 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-06 00:15:50.949  WARN 5300 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-06 00:15:52.454  INFO 5300 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-01-06 00:15:53.295  INFO 5300 --- [main] com.phonebook.PhoneBookApplicationTests  : Started PhoneBookApplicationTests in 50.875 seconds (JVM running for 67.014)
+2022-01-06 00:15:55.082  INFO 5300 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-06 00:15:55.087  INFO 5300 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-01-06 00:15:55.419  INFO 5300 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
